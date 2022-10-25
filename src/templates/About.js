@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className="About">
             <div className="Block">
-                <img className="img-fluid" src={image1} />
+                <img className="img-fluid" src={image2} />
                 <div>
                     <h2>WUSHU:</h2>
 
@@ -32,7 +32,7 @@ export default function About() {
                         various other multi-sport events.
                     </p>
                 </div>
-                <img src={image2} className="img-fluid" />
+                <img src={image1} className="img-fluid" />
             </div>
         </div>
     );

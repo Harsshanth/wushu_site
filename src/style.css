@@ -11,7 +11,9 @@
 .navbar .image {
     width: 100%;
 }
-
+.Navbar {
+    min-height: 90vh;
+}
 .Navbar,
 .About,
 .Event {
@@ -203,23 +205,20 @@
 }
 .Event .btn:hover {
     background: #fff;
-    color: #006fff ;
+    color: #006fff;
 }
 /* Achivement */
 .Achivement {
     min-height: 90vh;
 }
-.Achivement .card,
-.Gallery .card {
+.Achivement .card {
     width: 500px;
     padding: 0;
     margin-bottom: 30px;
     font-size: 20px;
     border: none;
-    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
 }
-.Achivement .row img,
-.Gallery .card img {
+.Achivement .row img {
     width: 500px;
     height: auto;
 }
@@ -275,14 +274,14 @@
     padding: 10px 0px;
     margin: 30px 20px;
 }
-.Gallery .row {
+/* .Gallery .row {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     border-radius: 4px;
     background: rgb(3, 3, 3, 0.1);
     padding: 20px 0px;
-}
+} */
 @media (max-width: 992px) {
     .container-fluid {
         padding-left: 0px;

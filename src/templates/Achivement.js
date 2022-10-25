@@ -1,7 +1,5 @@
 import {React,useEffect,useRef,useState} from 'react';
 import { getDocument } from '../firebase/fireStore';
-import image1 from './images/img2.jpeg';
-import image2 from './images/img3.jpeg';
 
 export default function Achivement() {
     const [data,setData] = useState([]);
@@ -24,7 +22,7 @@ export default function Achivement() {
         <div className="Achivement">
             <div className="row">
                 {data==null?<>no Achivements</>:data.map((achievement)=>{
-                    return (<div className="card">
+                    return (<div className="card shadow-lg">
                     
                     <img src={achievement.ImageUrl} className="card-img-top img-fluid" alt="..." />
                     <div className="card-body">
