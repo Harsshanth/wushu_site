@@ -29,7 +29,7 @@ export default function Event() {
                     <p>
                         {d.Discription}
                     </p>
-                    <button className="btn btn-primary">Download</button>
+                    <a  className="btn btn-primary" href={d.brochure} >Download</a>
                 </div>
                 {i%2==1?<img className="img-fluid" src={d.ImageUrl} />:<></>}
             </div>)
