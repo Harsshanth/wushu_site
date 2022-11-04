@@ -21,7 +21,7 @@ export default function Gallery() {
         <div className="Gallery ">
             <div className="row">
 
-            {data==null?<>no Achivements</>:data.map((value,index)=>{
+            {data.length==0?'Gallery is Empty':data.map((value,index)=>{
                     return (<div className="col-md-3" key={index}>
                     <div className="card mb-2" data-toggle="modal" data-target="#exampleModal">
                         <img src={value.ImageUrl} className="card-img-top img-fluid" alt="..." />

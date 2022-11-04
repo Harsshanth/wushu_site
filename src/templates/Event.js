@@ -20,7 +20,7 @@ export default function Event() {
     },[render])
     return (
         <div className="Event">
-            {data.map((d,i)=>{
+            {data.length==0?'No Events Posted':data.map((d,i)=>{
                 return (<div className="Block">
                 {i%2==0?<img className="img-fluid" src={d.ImageUrl} />:<></>}
                 <div>

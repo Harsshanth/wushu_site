@@ -21,7 +21,7 @@ export default function Achivement() {
     return (
         <div className="Achivement">
             <div className="row">
-                {data==null?<>no Achivements</>:data.map((achievement)=>{
+                {data.length==0?<>no Achivements</>:data.map((achievement)=>{
                     return (<div className="card shadow-lg">
                     
                     <img src={achievement.ImageUrl} className="card-img-top img-fluid" alt="..." />
