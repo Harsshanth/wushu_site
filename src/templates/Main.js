@@ -79,9 +79,7 @@ export default function main() {
                     Taolu, refers to the set routine (form) practice component of wushu. Taolu
                     routines comprise of a continuously connected set of pre-determined techniques,
                     choreographed according to certain principles and philosophies which incorporate
-                    techniques and stylistic principles of attack and defense. These include hand
-                    techniques, leg techniques, jumps, sweeps, stances & footwork, seizing, throwing
-                    & wrestling, balances etc. Traditionally, Taolu routines were originally
+                    techniques and stylistic principles of attack and defense.  Traditionally, Taolu routines were originally
                     compiled to preserve the techniques and tactics of a particular lineage or
                     system, and would gradually improve a practitioner's flexibility, stamina,
                     strength, speed, balance and co-ordination, and would "imprint" a tactical order
@@ -89,17 +87,7 @@ export default function main() {
                     routines, as well as partner/duel routines with 2 or more practitioners
                     involved. They have a rich and diverse content utilizing a wide variety of
                     techniques and includes both bare-handed routines and those performed with
-                    weapons. Sport wushu has developed from traditional wushu and is presented to
-                    the world in the form of a modern Olympic sport with a perfect combination of
-                    ancient practices and modern sports principles. Athletes perform routines
-                    (barehanded or with weaponry) based on specific rules, highlighting their
-                    athletic strengths. Routines are appraised by a panel of judges who evaluate
-                    different aspects of a performance, namely quality of movements, overall
-                    performance and degree of difficulty, and award a score based on an athlete's
-                    performance. Individual taolu routines include optional routines, compulsory
-                    routines, choreographed duel/sparring routines and group routines. Taolu
-                    competition takes place in a specialized 8m x 14m arena, which comprises of high
-                    density foam covered by a low-static carpet.
+                    weapons. 
                 </p>
             </div>
         </div>
