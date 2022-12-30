@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from './images/about1.jpg';
 import image2 from './images/about2.jpg';
+import official from './files/officials.pdf';
 export default function About() {
     return (
         <div className="About">
@@ -29,6 +30,18 @@ export default function About() {
                 </div>
                 <img src={image1} className="img-fluid" />
             </div>
+            <div className="Block">
+                <img src={image1} className="img-fluid" />
+                <div>
+                    <h2>Johnson.P</h2>
+
+                    <p>
+                    Hi, I am General Secretary of Tamil Nadu Wushu Association . It was 3 long year being part of this organization  and improving new generation kids into the world of art . I welcome all to my association and have bright future.
+                    </p>
+                </div>
+                
+            </div>
+            <center><a href={official} target='_blank' download= 'official.pdf'><h4>VIEW OTHER OFFICIALS</h4></a></center>
         </div>
     );
 }
