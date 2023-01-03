@@ -30,7 +30,7 @@ export default function About() {
                 </div>
                 <img src={image1} className="img-fluid" />
             </div>
-            <div className="Block">
+            {/* <div className="Block">
                 <img src={image1} className="img-fluid" />
                 <div>
                     <h2>Johnson.P</h2>
@@ -41,7 +41,7 @@ export default function About() {
                 </div>
                 
             </div>
-            <center><a href={official} target='_blank' download= 'official.pdf'><h4>VIEW OTHER OFFICIALS</h4></a></center>
+            <center><a href={official} target='_blank' download= 'official.pdf'><h4>VIEW OTHER OFFICIALS</h4></a></center> */}
         </div>
     );
 }
