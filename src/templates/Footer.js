@@ -7,14 +7,14 @@ export default function Footer() {
             <footer>
                 <Router>
                     <div className="socialmedia footer">
-                        <a href="https://youtube.com/channel/UCFw2TiSGJhCkQq2o-1o8v7w" target="_blank">
+                        <a href="https://www.youtube.com/@tamilnaduwushu6922" target="_blank">
                             <i className="fa-brands fa-youtube fa-xl"></i>
                         </a>
 
-                        <a href="">
+                        <a>
                             <i className="fa-brands fa-facebook fa-xl"></i>
                         </a>
-                        <a href=''>
+                        <a href='https://instagram.com/tamilnaduwushu?igshid=YmMyMTA2M2Y='>
                             <i className="fa-brands fa-instagram fa-xl"></i>
                         </a>
                         <a href='mailto:tamilnadunwushu1@gmail.com'>
@@ -22,7 +22,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className="footer-text bg-primary">
-                        {/* @ 2022 Copyright:WushuAssociation.com */}
+                        @ 2022 Copyright: Wushu Tamil Nadu Association 
                     </div>
                 </Router>
             </footer>
